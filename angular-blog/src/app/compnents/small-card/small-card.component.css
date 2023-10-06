@@ -1,12 +1,13 @@
 .container__small-card {
   width: 400px;
-  height: 166.6px;
+  height: auto;
   margin-top: 15px;
 }
 
 .container__small-card-content{
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .small-card__photo > img {
@@ -33,6 +34,8 @@
   color: gray;
   margin-top: 10px;
   font-size: 12px;
+  text-align: justify;
+  text-justify:distribute;
 }
 
 a{

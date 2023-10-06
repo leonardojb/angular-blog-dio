@@ -1,0 +1,6 @@
+.container{
+  display: flex;
+  flex: row;
+  text-align:center;
+  justify-content: center;
+}
