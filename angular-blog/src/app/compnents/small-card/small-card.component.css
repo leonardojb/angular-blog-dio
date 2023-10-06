@@ -1,0 +1,41 @@
+.container__small-card {
+  width: 400px;
+  height: 166.6px;
+  margin-top: 15px;
+}
+
+.container__small-card-content{
+  display: flex;
+  flex-direction: row;
+}
+
+.small-card__photo > img {
+  width: 200px;
+  min-width: 200px;
+  margin-right: 20px;
+}
+
+.small-card__title > h1{
+  color: gray;
+  font-size: 12px;
+}
+
+.container__small-card__separator > hr{
+  margin-top: 10px;
+}
+
+.small-card__text{
+  display: flex;
+  flex-direction: column;
+}
+
+.small-card__noticia > p {
+  color: gray;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+a{
+  text-decoration: none;
+}
+
