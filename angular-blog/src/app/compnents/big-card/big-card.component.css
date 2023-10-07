@@ -13,6 +13,7 @@
 .big-card__title > h1 {
   font-size: 20px;
   margin-top: 15px;
+  font-family: 'Martian Mono', monospace;
 }
 
 .big-card__description{
@@ -21,11 +22,13 @@
   text-justify:distribute;
 }
 
-.big-card__description > p > a{
+.big-card__description > p{
   color: gray;
+  font-family: 'Martian Mono', monospace;
+  font-weight: 100;
 }
 
-.big-card__photo > img{
+.big-card__photo > a > img{
   width: 100%;
   min-width: 400px;
 }

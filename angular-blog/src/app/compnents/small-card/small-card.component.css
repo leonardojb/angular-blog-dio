@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-.small-card__photo > img {
+.small-card__photo > a > img {
   width: 200px;
   min-width: 200px;
   margin-right: 20px;
@@ -19,6 +19,7 @@
 .small-card__title > h1{
   color: gray;
   font-size: 12px;
+  font-family: 'Martian Mono', monospace;
 }
 
 .container__small-card__separator > hr{
@@ -34,8 +35,10 @@
   color: gray;
   margin-top: 10px;
   font-size: 12px;
-  text-align: justify;
-  text-justify:distribute;
+  text-align:justify;
+  text-justify: distribute;
+  font-family: 'Martian Mono', monospace;
+  font-weight: 100;
 }
 
 a{

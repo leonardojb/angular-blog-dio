@@ -1,18 +1,19 @@
 <div class="container__big-card">
       <div class="big-card__photo">
+        <a href="{{ photoCover }}" target="_blank">
         <img
-        src="assets\images\laleskaLimaContrata.jpg"
+        src="{{ photoCover }}"
         alt="noticia"
         height="200px"
         srcset=""
         >
+        </a>
       </div>
   <div class="big-card__title">
-    <h1><a href="">Laleska Lima está contratando</a></h1>
+    <h1><a href="">{{ cardTitle }}</a></h1>
   </div>
   <div class="big-card__description">
-    <p>
-      <a href="">Laleska Lima procura lavadores de louças com experiência. A exigência é que os profissionais lavem a pia após o serviço. Promete-se pagamento de até R$ 20,00 por dia.</a>
-      </p>
+    <p>{{ cardDescription }}
+    </p>
   </div>
 </div>
